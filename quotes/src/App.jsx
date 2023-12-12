@@ -90,7 +90,7 @@ function App() {
    
    : <></>}
    </div>
-   <div className='w-1/2 bg-background bg-cover'></div>
+   <div className='w-1/2 bg-background bg-cover bg-center'></div>
    </div>
     </>
   )
