@@ -43,13 +43,16 @@ function App() {
 
   return (
     <>
-  <div className='flex max-sm:flex-col max-sm:space-y-4 font-Inter bg-[#2B3D6B] min-h-screen max-h-fit'>
-    <div className='flex w-1/2  flex-col max-sm:w-full items-center space-y-8 pt-3   text-[28px] '>
+  <div className='flex max-sm:flex-col max-sm:space-y-6 font-Inter bg-[#2B3D6B] min-h-screen max-h-fit'>
+    <div className='flex w-1/2  flex-col max-sm:w-full items-center space-y-8 pt-3   text-[27px] '>
       <div className='text-white'>
-   <div className=' font-bold '>
+      <div className=' font-semibold '>
+    Anime Quote Generator
+   </div>
+   <div className=' text-center  text-[19px] '>
     Feeling out of touch?
    </div>
-   <div className='font-normal text-center  text-[15px]'>You'll feel better after a quote!</div>
+   <div className='text-center  text-[15px]'>You'll feel better after a quote!</div>
 
    </div>
    <div className='space-y-3'>
@@ -71,7 +74,7 @@ function App() {
    <div className='text-white text-center text-[15px]'>or</div>
 
   
-   <button onClick={fetchData} className='bg-[#375b8ac5] hover:bg-[#325786c5] text-white font-semiboldbold text-[15px] w-fit px-[16px] rounded-md py-2'>Generate a random quote</button>
+   <button onClick={fetchData} className='transition ease-in-out delay-50 bg-[#375b8ac5] hover:bg-[#243f63c5]  text-white font-semiboldbold text-[15px] w-fit px-[16px] rounded-md py-2'>Generate a random quote</button>
 
    </div>
    { fetchedQuote ? 

@@ -7,8 +7,8 @@ export default {
   theme: {
     fontFamily: {
       'lusitana': ['Lusitana', 'serif'],
-      'Inter': ['Inter', 'sans-serif']
-      
+      'Inter': ['Inter', 'sans-serif'],
+      'DM Sans': ['DM Sans', 'sans-serif']
     },
 
     extend: {
