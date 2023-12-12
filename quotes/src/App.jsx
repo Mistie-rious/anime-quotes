@@ -43,8 +43,8 @@ function App() {
 
   return (
     <>
-  <div className='flex font-Inter bg-[#2B3D6B] min-h-screen max-h-fit'>
-    <div className='flex w-1/2  flex-col items-center space-y-8 pt-4   text-[28px] '>
+  <div className='flex max-sm:flex-col font-Inter bg-[#2B3D6B] min-h-screen max-h-fit'>
+    <div className='flex max-sm:w-full lg:w-1/2  flex-col items-center space-y-8 pt-4   text-[28px] '>
       <div className='text-white'>
    <div className=' font-bold '>
     Feeling out of touch?
@@ -90,7 +90,7 @@ function App() {
    
    : <></>}
    </div>
-   <div className='w-1/2 bg-background bg-cover bg-center'></div>
+   <div className='w-1/2 max-sm:w-0 bg-background bg-cover bg-center'></div>
    </div>
     </>
   )
