@@ -43,8 +43,8 @@ function App() {
 
   return (
     <>
-  <div className='flex max-sm:flex-col font-Inter bg-[#2B3D6B] min-h-screen max-h-fit'>
-    <div className='flex md:w-1/2  flex-col items-center space-y-8 pt-4   text-[28px] '>
+  <div className='flex max-sm:flex-col max-sm:space-y-4 font-Inter bg-[#2B3D6B] min-h-screen max-h-fit'>
+    <div className='flex w-1/2  flex-col max-sm:w-full items-center space-y-8 pt-3   text-[28px] '>
       <div className='text-white'>
    <div className=' font-bold '>
     Feeling out of touch?
