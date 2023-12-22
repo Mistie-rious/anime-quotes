@@ -93,7 +93,7 @@ function App() {
    
    : <></>}
    </div>
-   <div className='w-1/2 max-sm:bg-mobile max-sm:self-center bg-background bg-cover min-h-screen'></div>
+   <div className='w-1/2   max-sm:w-full bg-background bg-cover min-h-screen'></div>
    </div>
     </>
   )
