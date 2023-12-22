@@ -55,7 +55,7 @@ function App() {
    <div className='text-center  text-[15px]'>You'll feel better after a quote!</div>
 
    </div>
-   <div className='space-y-3'>
+   <div className='space-y-3 flex flex-col items-center'>
     <div>
     <div  className='text-[15px] text-white '>Search by anime name</div>
    <form onSubmit={searchByTitle}>
@@ -74,7 +74,7 @@ function App() {
    <div className='text-white text-center text-[15px]'>or</div>
 
   
-   <button onClick={fetchData} className='transition ease-in-out delay-50 bg-[#375b8ac5] self-center hover:bg-[#243f63c5]  text-white font-semiboldbold text-[15px] w-fit px-[16px] rounded-md py-2'>Generate a random quote</button>
+   <button onClick={fetchData} className='transition ease-in-out delay-50 bg-[#375b8ac5] hover:bg-[#243f63c5]  text-white font-semiboldbold text-[15px] w-fit px-[16px] rounded-md py-2'>Generate a random quote</button>
 
    </div>
    { fetchedQuote ? 
