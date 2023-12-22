@@ -13,7 +13,8 @@ export default {
 
     extend: {
       backgroundImage: {
-        'background': "url('./assets/cropped.jpg')"
+        'background': "url('./assets/cropped.jpg')",
+        'mobile': "url('./assets/mobile.jpg')"
       }
     },
   },
