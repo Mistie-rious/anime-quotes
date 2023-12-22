@@ -74,7 +74,7 @@ function App() {
    <div className='text-white text-center text-[15px]'>or</div>
 
   
-   <button onClick={fetchData} className='transition ease-in-out delay-50 bg-[#375b8ac5] hover:bg-[#243f63c5]  text-white font-semiboldbold text-[15px] w-fit px-[16px] rounded-md py-2'>Generate a random quote</button>
+   <button onClick={fetchData} className='transition ease-in-out delay-50 bg-[#375b8ac5] self-center hover:bg-[#243f63c5]  text-white font-semiboldbold text-[15px] w-fit px-[16px] rounded-md py-2'>Generate a random quote</button>
 
    </div>
    { fetchedQuote ? 
