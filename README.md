@@ -8,13 +8,6 @@ Features:
   *  Search by Anime: Enter an anime title in the search bar and press "Search" to find quotes specifically from that anime.
   *  Modern Design: The site boasts a clean and user-friendly design, enhancing your anime quote exploration journey.
 
-Technology Stack:
-
-    Frontend: JavaScript (framework/library optional, e.g., React, Vue.js, vanilla JS)
-    Backend (optional): Node.js, Python, or similar (for hosting and managing data)
-    Data source:
-        API (e.g., Animechan, Jikan)
-        Local data (if using a static website)
 
 Installation and Usage:
 
