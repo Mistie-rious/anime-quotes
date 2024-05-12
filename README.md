@@ -1,6 +1,8 @@
 Anime Quote Generator
 
-This website completes your love for anime by generating random quotes and enabling searches by anime title, letting you explore the wisdom and wit uttered by your favorite characters.
+Made with Vite + TailWind CSS.
+
+This website completes your love for anime by generating random quotes and enabling searches by anime title, letting you explore the wit uttered by your favorite characters.
 
 Features:
 
