@@ -1,4 +1,4 @@
-Anime Quote Generator
+##Anime Quote Generator
 
 Made with Vite + TailWind CSS.
 
