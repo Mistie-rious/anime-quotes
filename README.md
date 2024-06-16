@@ -1,9 +1,8 @@
 ## Anime Quote Generator
 
-Made with Vite + TailWind CSS.
+Made with React + Vite + TailWind CSS.
 
-This website fuels your love for anime by generating random quotes and enabling searches by anime title, letting you explore the wit uttered by your favorite characters.
-
+This website is made for anime lovers, generating random quotes and allowing you to search by anime title so you can discover the memorable lines spoken by your favorite characters.
 Features:
 
   *  Random Quote Generation
